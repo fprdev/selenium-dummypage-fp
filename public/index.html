@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Selenium Testpage</title>
+</head>
+<body>
+    <h1>Welcome to my Selenium Test Page!</h1>
+    <p>If you click this button nothing will happen... right?</p>
+    <button onclick="alert('all good! nothing happened!')">Click Me</button>
+    <p>If you click this button you can enter your Name</p>
+    <button onclick="prompt('please enter your name')">Enter Name</button>
+    <p>Please Toggle the following checkboxes to accept the licesence agreement</p>
+    <form action="/action_page.php">
+        <input type="checkbox" id="agreement1" name="agree1" value="Bike">
+        <label for="vehicle1"> I agree 1</label><br>
+        <input type="checkbox" id="agreement2" name="agree2" value="Car">
+        <label for="vehicle2"> I agree 2</label><br>
+        <input type="checkbox" id="agreement3" name="agree3" value="Boat">
+        <label for="vehicle3"> I agree 3</label><br><br>
+        <input type="submit" value="Submit">
+      </form>
+
+    <p>The last step is to write a short description about yourself:</p>
+    <textarea>
+
+    </textarea>
+    <br>
+    <br>
+    <button onclick="prompt('thanks! If you want you can leave feedback here:')">submit</button>
+</body>
+</html>
