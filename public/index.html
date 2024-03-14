@@ -7,11 +7,11 @@
 <body>
     <h1>Welcome to my Selenium Test Page!</h1>
     <p>If you click this button nothing will happen... right?</p>
-    <button onclick="alert('all good! nothing happened!')">Click Me</button>
+    <button id="firstbutton" onclick="alert('all good! nothing happened!')">Click Me</button>
     <p>If you click this button you can enter your Name</p>
-    <button onclick="prompt('please enter your name')">Enter Name</button>
+    <button id="fristprompt" onclick="prompt('please enter your name')">Enter Name</button>
     <p>Please Toggle the following checkboxes to accept the licesence agreement</p>
-    <form action="/action_page.php">
+    <form id="licenseagreementform" action="/action_page.php">
         <input type="checkbox" id="agreement1" name="agree1" value="Bike">
         <label for="vehicle1"> I agree 1</label><br>
         <input type="checkbox" id="agreement2" name="agree2" value="Car">
